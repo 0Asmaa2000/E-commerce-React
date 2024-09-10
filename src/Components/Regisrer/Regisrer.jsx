@@ -56,7 +56,7 @@ validationSchema:validationSchema ,
 
   return (
 <>
-{ApiError?<div className='w-1/2 bg-red-600 mx-auto text-white font-bold rounded-lg p-2 text-center'>{ApiError}</div>:null
+{ApiError?<div className='w-1/2 bg-red-600 mx-auto mt-12 text-white font-bold rounded-lg p-2 text-center'>{ApiError}</div>:null
 }
 
 <div className='py-2'>
